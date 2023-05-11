@@ -1,6 +1,3 @@
-module.exports = {
-    test : function (req, res)
-    {
-        res.render('test')
-    }
+export function test(req, res) {
+    res.render('test')
 }
